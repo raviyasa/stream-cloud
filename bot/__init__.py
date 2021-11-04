@@ -53,7 +53,8 @@ async def download(event):
             id_hex = hex(msg.id)[2:]
             id = f"{id_hex}/{get_file_name(msg)}"
             bot_url = f"t.me/{username_bot}?start={id_hex}"
-            await event.reply(f"Link to download file: \n\n📎 : {Config.DOMAIN}/{id}\n\n🤖 : {bot_url}")
+            await event.reply(f"Your Link Generated 😁☺️🙈\nDirect Link To Download 👇 : \n\n🔗 : {Config.DOMAIN}/{id}\n\n🤖 : @crazy_file_to_link_bot\n\n©️ Made By 🧑‍💻 Ravidu Yasas (https://t.me/darkz_hacker_devil)\n
+©️ By Bot Shadow (https://t.me/media_bot_updates)")
             return
 
         elif id_msg := re.search("/start (.*)", event.raw_text ):
